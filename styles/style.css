@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url("Cocogoose.woff2") format("woff2"), url("Cocogoose.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: lato;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1310px;
+}
+
+.coco {
+  font-family: "Cocogoose", Arial, sans-serif;
+}
+
+.orange {
+  color: #EC5242;
+}
+/*# sourceMappingURL=style.css.map */

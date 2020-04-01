@@ -1,0 +1,36 @@
+// variables
+$dark:#272A31;
+$orange: #EC5242;
+$gray: #d3d3d3;
+$coco: "Cocogoose",
+Arial,
+sans-serif;
+$lato: "Lato",
+sans-serif;
+//extra fonts
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('Cocogoose.woff2') format('woff2'), url('Cocogoose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// basic setup
+body {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: lato;
+    overflow-x: hidden;
+}
+
+main {
+    max-width: 1310px;
+}
+
+.coco {
+    font-family: $coco;
+}
+
+.orange {
+    color: $orange;
+}
