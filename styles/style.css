@@ -12,6 +12,18 @@ body {
   overflow-x: hidden;
 }
 
+a,
+a::before,
+a::after {
+  color: #272A31;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EC5242;
+  text-decoration: none;
+}
+
 main {
   max-width: 1310px;
 }
@@ -22,5 +34,33 @@ main {
 
 .orange {
   color: #EC5242;
+}
+
+.white {
+  color: white;
+}
+
+.dark {
+  color: #272A31;
+}
+
+.bg-gray {
+  background-color: #d3d3d3;
+}
+
+.bg-dark {
+  background-color: #272A31;
+}
+
+.top-navbar,
+.top-navbar a {
+  color: white;
+}
+
+.media-img {
+  width: 10rem;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */

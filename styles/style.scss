@@ -2,6 +2,7 @@
 $dark:#272A31;
 $orange: #EC5242;
 $gray: #d3d3d3;
+$white: white;
 $coco: "Cocogoose",
 Arial,
 sans-serif;
@@ -23,14 +24,60 @@ body {
     overflow-x: hidden;
 }
 
+a,
+a::before,
+a::after {
+    color: $dark;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $orange;
+    text-decoration: none;
+}
+
 main {
     max-width: 1310px;
 }
 
+// font classes
 .coco {
     font-family: $coco;
 }
 
+// color classes
 .orange {
     color: $orange;
 }
+
+.white {
+    color: $white;
+}
+
+.dark {
+    color: $dark;
+}
+
+// bg color classes
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-dark {
+    background-color: $dark;
+}
+
+// header
+.top-navbar,
+.top-navbar a {
+    color: $white;
+}
+
+// main
+.media-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+// footer
