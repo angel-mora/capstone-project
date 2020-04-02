@@ -92,17 +92,34 @@ main {
      object-fit: cover;
 }
 
-.program-heading {
+.program-container {
+  max-width: 1500px;
+}
+
+.program-container .program-heading {
   font-size: 1rem;
 }
 
-.program-container {
-  max-width: 1000px;
+.program-container .far,
+.program-container .fas {
+  margin-top: 1rem;
+}
+
+.program-container .program-heading {
+  margin-top: 1rem;
+}
+
+.program-container .display-4 {
+  width: 210px;
 }
 
 #cc-logo {
   width: 10rem;
   height: auto;
+}
+
+.partners {
+  margin-bottom: 6rem;
 }
 
 .footer-copy {

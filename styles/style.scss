@@ -107,17 +107,35 @@ main {
     object-fit: cover;
 }
 
-.program-heading {
-    font-size: 1rem;
-}
-
 .program-container {
-    max-width: 1000px;
+    max-width: 1500px;
+    .program-heading {
+        font-size: 1rem;
+    }
 }
 
+//move to lg screen
+.program-container {
+    .far,
+    .fas {
+        margin-top: 1rem;
+    }
+    .program-heading {
+        margin-top: 1rem;
+    }
+    .display-4 {
+        width: 210px;
+    }
+}
+
+// end
 #cc-logo {
     width: 10rem;
     height: auto;
+}
+
+.partners {
+    margin-bottom: 6rem;
 }
 
 // footer
