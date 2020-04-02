@@ -32,6 +32,10 @@ main {
   font-family: "Cocogoose", Arial, sans-serif;
 }
 
+.prom {
+  font-family: "Prompt", sans-serif;
+}
+
 .orange {
   color: #EC5242;
 }
@@ -52,9 +56,33 @@ main {
   background-color: #272A31;
 }
 
+.bg-orange {
+  background-color: #EC5242;
+}
+
 .top-navbar,
 .top-navbar a {
   color: white;
+}
+
+.top-navbar,
+.bottom-navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.bottom-navbar {
+  width: 100%;
+}
+
+.bottom-navbar .logo {
+  font-size: 2rem;
+}
+
+.bottom-navbar .tickets-btn {
+  border: 2px solid #EC5242;
+  color: #EC5242;
 }
 
 .media-img {
@@ -62,5 +90,33 @@ main {
   height: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.program-heading {
+  font-size: 1rem;
+}
+
+.program-container {
+  max-width: 1000px;
+}
+
+#cc-logo {
+  width: 10rem;
+  height: auto;
+}
+
+.footer-copy {
+  font-size: 1.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .h1-title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

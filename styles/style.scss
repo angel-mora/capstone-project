@@ -8,6 +8,8 @@ Arial,
 sans-serif;
 $lato: "Lato",
 sans-serif;
+$prom: "Prompt",
+sans-serif;
 //extra fonts
 @font-face {
     font-family: 'Cocogoose';
@@ -45,6 +47,10 @@ main {
     font-family: $coco;
 }
 
+.prom {
+    font-family: $prom;
+}
+
 // color classes
 .orange {
     color: $orange;
@@ -67,10 +73,31 @@ main {
     background-color: $dark;
 }
 
+.bg-orange {
+    background-color: $orange;
+}
+
 // header
 .top-navbar,
 .top-navbar a {
     color: $white;
+}
+
+.top-navbar,
+.bottom-navbar {
+    position: sticky;
+    top: 0;
+}
+
+.bottom-navbar {
+    width: 100%;
+    .logo {
+        font-size: 2rem;
+    }
+    .tickets-btn {
+        border: 2px solid $orange;
+        color: $orange;
+    }
 }
 
 // main
@@ -80,4 +107,29 @@ main {
     object-fit: cover;
 }
 
+.program-heading {
+    font-size: 1rem;
+}
+
+.program-container {
+    max-width: 1000px;
+}
+
+#cc-logo {
+    width: 10rem;
+    height: auto;
+}
+
 // footer
+.footer-copy {
+    font-size: 1.5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .h1-title {
+        justify-content: center;
+    }
+}

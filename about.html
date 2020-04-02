@@ -10,13 +10,97 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet">
     <!-- Project CSS -->
     <link rel="stylesheet" href="styles/style.css">
-    <title>Speculative Technologies Global Summit 2020</title>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/03774beff9.js" crossorigin="anonymous"></script>
+
+    <title>Speculative Technologies Global Summit</title>
 </head>
 
 <body>
-    <h1>About us</h1>
+    <div class="top-navbar navbar bg-dark d-flex justify-content-end">
+        <a href="#"><i class="pr-2 fab fa-facebook-f"></i></a>
+        <a href="#"><i class="pr-2 fab fa-twitter"></i></a>
+        <a href="#" class="pr-2 d-none d-lg-flex">Logout</a>
+        <a href="#" class="pr-2 d-none d-lg-flex">My Page</a>
+        <div class="justify-self-center">
+            <a href="#" class="pl-3 pr-2">Español</a>
+            <span>|</span>
+            <a href="#" class="pl-2">Français</a>
+        </div>
+    </div>
+
+    <div class="bottom-navbar navbar bg-gray d-flex justify-content-between">
+        <a href="index.html" class="prom logo">SpecTechs</a>
+        <div class="d-flex align-items-center justify-content-around">
+            <a href="index.html" class="pr-3 d-none d-lg-flex">Home</a>
+            <a href="about.html" class="pr-3 d-none d-lg-flex">About</a>
+            <a href="pricing.html" class="pr-3 d-none d-lg-flex">Pricing</a>
+            <a href="#" class="pr-3 d-none d-lg-flex">News</a>
+            <a href="#" class="pr-3 d-none d-lg-flex">Sponsors</a>
+            <a href="#" class="pr-3 tickets-btn btn">Get your tickets</a>
+        </div>
+    </div>
+
+    <main class="container-fluid pt-2">
+
+        <section class="d-flex justify-content-stretch">
+            <img src="images/solarpunk.jpg" alt="" class="img-cover">
+
+        </section>
+        <section class="d-flex flex-column bg-gray">
+            <h2 class="p-2 text-center coco bg-dark orange">
+                About Us
+            </h2>
+            <div class="program-container container mb-3">
+
+                <div class="p-2 border bg-light d-flex flex-column align-items-center justify-content-between">
+                    <div class="d-flex flex-column justify-content-start align-items-center">
+                        <i class="far fa-address-card"></i>
+                        <h3 class="p-2 text-uppercase program-heading orange font-weight-bold">Who we are</h3>
+                    </div>
+                    <div>
+                        <p class="p-2">SpecTechs was born after around five years of discussions about social change possibilities in a very complex world.</p>
+                    </div>
+                </div>
+
+                <div class="p-2 d-flex flex-column align-items-center justify-content-between">
+                    <div class="d-flex flex-column justify-content-start align-items-center">
+                        <i class="fas fa-question-circle"></i>
+                        <h3 class="p-2 text-uppercase program-heading orange font-weight-bold">What's <span class="dark coco text-capitalize p-2">SpecTechs</span> about?</h3>
+                    </div>
+                    <div>
+                        <!-- https://getbootstrap.com/docs/4.1/examples/pricing/ -->
+                        <p class="p-2">FLEXBOX TAGS IN HERE</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="d-flex flex-column bg-gray mt-3">
+            <h2 class="p-2 text-center coco bg-dark orange">
+                Meet our Partners!
+            </h2>
+            <!-- allies logos -->
+            <div class="d-flex flex-lg-row flex-column justify-content-center justify-content-lg-around align-items-center">
+                <img src="images/autonomy-logo.png" alt="" class="mt-2 media-img">
+                <img src="images/cc-logo.png" alt="" class="mt-4" id="cc-logo">
+                <img src="images/low-tech-logo.png" alt="" class="mt-4 mb-4 media-img">
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer bg-gray mt-3">
+        <span class="footer-copy text-center coco p-4 mb-0 bg-dark orange d-flex justify-content-center">Copyleft - SpecTechs</span>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
