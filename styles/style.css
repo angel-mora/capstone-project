@@ -100,19 +100,6 @@ main {
   font-size: 1rem;
 }
 
-.program-container .far,
-.program-container .fas {
-  margin-top: 1rem;
-}
-
-.program-container .program-heading {
-  margin-top: 1rem;
-}
-
-.program-container .display-4 {
-  width: 210px;
-}
-
 #cc-logo {
   width: 10rem;
   height: auto;
@@ -120,6 +107,51 @@ main {
 
 .partners {
   margin-bottom: 6rem;
+}
+
+.topics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.topics li {
+  padding: 0.3rem 0.5rem;
+  margin: 0.3rem 0.5rem;
+  background-color: #EC5242;
+  border-radius: .2em;
+}
+
+.topics a:hover {
+  color: white;
+}
+
+.about-memberships-p {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.2;
+}
+
+.table {
+  max-width: 1300px;
+  margin-bottom: 6rem;
+}
+
+.solarpunk {
+  width: 100%;
+  opacity: 0.5;
 }
 
 .footer-copy {
@@ -134,6 +166,16 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .program-container .far,
+  .program-container .fas {
+    margin-top: 1rem;
+  }
+  .program-container .program-heading {
+    margin-top: 1rem;
+  }
+  .program-container .display-4 {
+    width: 210px;
   }
 }
 /*# sourceMappingURL=style.css.map */
