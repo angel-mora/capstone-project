@@ -8,19 +8,19 @@
 body {
   font-size: 15px;
   line-height: 20px;
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   overflow-x: hidden;
 }
 
 a,
 a::before,
 a::after {
-  color: #272A31;
+  color: #272a31;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EC5242;
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ main {
 }
 
 .orange {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .white {
@@ -45,7 +45,7 @@ main {
 }
 
 .dark {
-  color: #272A31;
+  color: #272a31;
 }
 
 .bg-gray {
@@ -53,11 +53,11 @@ main {
 }
 
 .bg-dark {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 .bg-orange {
-  background-color: #EC5242;
+  background-color: #ec5242;
 }
 
 .top-navbar,
@@ -81,8 +81,8 @@ main {
 }
 
 .bottom-navbar .tickets-btn {
-  border: 2px solid #EC5242;
-  color: #EC5242;
+  border: 2px solid #ec5242;
+  color: #ec5242;
 }
 
 .media-img {
@@ -122,14 +122,13 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
 }
 
 .topics li {
   padding: 0.3rem 0.5rem;
   margin: 0.3rem 0.5rem;
-  background-color: #EC5242;
-  border-radius: .2em;
+  background-color: #ec5242;
+  border-radius: 0.2em;
 }
 
 .topics a:hover {
