@@ -1,6 +1,8 @@
 # capstone-project
 Microverse front-end capstone project to show mastery skills using front-end tools.
 
+A conference registration website for a think tank focused on Low-Tech development.
+
 > HTML & CSS project made of 3 webpages using Bootstrap and SASS.
 
 You can find the inspiration for this website from [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
@@ -13,7 +15,7 @@ You can find the inspiration for this website from [here](https://www.behance.ne
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://www.loom.com/share/fdb674f84f60479e9939909c5cc4d19b)
 
 ## Authors
 
