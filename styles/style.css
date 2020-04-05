@@ -89,7 +89,7 @@ main {
   width: 10rem;
   height: 10rem;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .program-container {
@@ -114,13 +114,13 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
 }
 
@@ -153,6 +153,39 @@ main {
   opacity: 0.5;
 }
 
+.wrap {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.speakers-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.pricing-access-box {
+  width: 700px;
+  margin: 3rem auto !important;
+}
+
+.pricing-table {
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 4rem 2rem;
+}
+
 .footer-copy {
   font-size: 1.5rem;
   width: 100%;
@@ -163,21 +196,36 @@ main {
 @media screen and (min-width: 992px) {
   .h1-title {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .program-container .far,
   .program-container .fas {
     margin-top: 1rem;
   }
-
   .program-container .program-heading {
     margin-top: 1rem;
   }
-
   .program-container .display-4 {
     width: 210px;
+  }
+  .local-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="top-navbar navbar bg-dark d-flex justify-content-end">
+    <nav class="top-navbar navbar bg-dark d-flex justify-content-end">
         <a href="#"><i class="pr-2 fab fa-facebook-f"></i></a>
         <a href="#"><i class="pr-2 fab fa-twitter"></i></a>
         <a href="#" class="pr-2 d-none d-lg-flex">Logout</a>
@@ -30,28 +30,27 @@
             <span>|</span>
             <a href="#" class="pl-2">Français</a>
         </div>
-    </div>
+    </nav>
 
-    <div class="bottom-navbar navbar bg-gray d-flex justify-content-between">
+    <nav class="bottom-navbar navbar bg-gray d-flex justify-content-between">
         <a href="index.html" class="prom logo">SpecTechs</a>
+
         <div class="d-flex align-items-center justify-content-around">
             <a href="index.html" class="pr-3 d-none d-lg-flex">Home</a>
-            <a href="about.html" class="pr-3 d-none d-lg-flex">About</a>
+            <a href="about.html" class="pr-3">About</a>
             <a href="pricing.html" class="pr-3 d-none d-lg-flex">Pricing</a>
             <a href="#" class="pr-3 d-none d-lg-flex">News</a>
             <a href="#" class="pr-3 d-none d-lg-flex">Sponsors</a>
-            <a href="#" class="pr-3 tickets-btn btn">Get your tickets</a>
+            <a href="pricing.html" class="pr-3 tickets-btn btn">Get your tickets</a>
         </div>
-    </div>
+    </nav>
 
     <main class="container-fluid pt-2">
         <div class="h1-title container d-flex flex-column justify-content-center align-items-center">
             <h1 class="coco orange p-2 text-lg-center">Speculative Technologies<br>Global Summit</h1>
             <h4 class="pb-3">Join the network of people who are transforming the world through imagining new technologies.</h4>
         </div>
-        <div class="d-flex justify-content-center">
-            <a href="pricing.html" class="p-3 mb-3 btn white bg-orange border">Get your tickets now!</a>
-        </div>
+
         <section class="d-flex flex-column bg-gray">
             <h2 class="p-2 text-center coco bg-dark orange">
                 Main Program
@@ -107,34 +106,64 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center bg-dark">
+                <a href="pricing.html" class="p-3 mb-3 mt-3 btn coco text-uppercase rounded-pill white bg-orange border">Get your tickets now!</a>
+            </div>
         </section>
 
-        <article class="d-flex flex-column bg-gray mt-3">
+        <section class="d-flex flex-column bg-gray mt-3">
             <h2 class="p-2 text-center coco bg-dark orange">
                 Featured Speakers
             </h2>
-            <div class="media">
-                <img src="images/hester.jfif" alt="" class="media-img p-2 img-thumbnail">
-                <div class="media-body">
-                    <h3 class="p-2 orange font-weight-bold text-uppercase">Hellen Hester</h3>
-                    <p class="p-2">A xenofeminist author, Hellen poses a lot of questions through her research on how to create technologies for emancipation.</p>
+            <article class="local-row">
+                <div class="column">
+                    <div class="speakers-item media">
+                        <img src="images/low-tech-author.jpg" alt="" class="media-img p-2 img-thumbnail">
+                        <div class="media-body">
+                            <h3 class="p-2 orange font-weight-bold text-uppercase">Philippe Bihouix</h3>
+                            <p class="p-2">Philippe Bihouix is an engineer. He's the author of "L'Âge des Low Tech", a book on sustainable technologies.</p>
+                        </div>
+                    </div>
+                    <div class="speakers-item media bg-white border">
+                        <img src="images/hester.jfif" alt="" class="media-img p-2 img-thumbnail">
+                        <div class="media-body">
+                            <h3 class="p-2 orange font-weight-bold text-uppercase">Hellen Hester</h3>
+                            <p class="p-2">A xenofeminist author, Hellen poses a lot of questions through her research on how to create technologies for emancipation.</p>
+                        </div>
+                    </div>
+                    <div class="speakers-item media">
+                        <img src="images/srnicek.jpg" alt="" class="media-img p-2 img-thumbnail">
+                        <div class="media-body">
+                            <h3 class="p-2 orange font-weight-bold text-uppercase">Nick Srnicek</h3>
+                            <p class="p-2">Philosopher. Founder of <a href="https://autonomy.work">autonomy.work</a> think tank.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="media bg-white border">
-                <img src="images/low-tech-author.jpg" alt="" class="media-img p-2 img-thumbnail">
-                <div class="media-body">
-                    <h3 class="p-2 orange font-weight-bold text-uppercase">Philippe Bihouix</h3>
-                    <p class="p-2">Philippe Bihouix is an engineer. He's the author of "L'Âge des Low Tech", a book on sustainable technologies.</p>
+                <div class="column">
+                    <div class="speakers-item media bg-white border">
+                        <img src="images/colau.jpg" alt="" class="media-img p-2 img-thumbnail">
+                        <div class="media-body">
+                            <h3 class="p-2 orange font-weight-bold text-uppercase">Ada Colau</h3>
+                            <p class="p-2">Ada Colau Ballano is the current Mayor of Barcelona. One of the founding members of the Platform for People Affected by Mortgages (PAH). </p>
+                        </div>
+                    </div>
+                    <div class="speakers-item media">
+                        <img src="images/Vitalik-Buterin.jpg" alt="" class="media-img p-2 img-thumbnail">
+                        <div class="media-body">
+                            <h3 class="p-2 orange font-weight-bold text-uppercase">Vitalik Buterin</h3>
+                            <p class="p-2">Creator of Ethereum cryptocurrency and co-founder of Bitcoin Magazine.</p>
+                        </div>
+                    </div>
+                    <div class="speakers-item media bg-white border">
+                        <img src="images/photo-1.jpg" alt="" class="media-img p-2 img-thumbnail">
+                        <div class="media-body">
+                            <h3 class="p-2 orange font-weight-bold text-uppercase">Somebody else</h3>
+                            <p class="p-2">Just somebody else.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="media">
-                <img src="images/srnicek.jpg" alt="" class="media-img p-2 img-thumbnail">
-                <div class="media-body">
-                    <h3 class="p-2 orange font-weight-bold text-uppercase">Nick Srnicek</h3>
-                    <p class="p-2">Philosopher. Founder of <a href="https://autonomy.work">autonomy.work</a> think tank.</p>
-                </div>
-            </div>
-        </article>
+            </article>
+        </section>
 
         <section class="partners d-flex flex-column bg-gray mt-3">
             <h2 class="p-2 text-center coco bg-dark orange">
