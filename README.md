@@ -15,7 +15,9 @@ You can find the inspiration for this website from [here](https://www.behance.ne
 
 ## Live Demo
 
-[Live Demo Link](https://www.loom.com/share/fdb674f84f60479e9939909c5cc4d19b)
+[Live Demo Link](https://rawcdn.githack.com/angel-mora/capstone-project/3382a3b4b7359b8afd6becd78aad7730d98f9a1f/index.html)
+
+[Watch the video presentation here](https://www.loom.com/share/fdb674f84f60479e9939909c5cc4d19b)
 
 ## Authors
 
