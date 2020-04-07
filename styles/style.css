@@ -24,10 +24,6 @@ a:hover {
   text-decoration: none;
 }
 
-main {
-  max-width: 1310px;
-}
-
 .coco {
   font-family: "Cocogoose", Arial, sans-serif;
 }
@@ -89,11 +85,7 @@ main {
   width: 10rem;
   height: 10rem;
   -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.program-container {
-  max-width: 1500px;
+     object-fit: cover;
 }
 
 .program-container .program-heading {
@@ -109,18 +101,29 @@ main {
   margin-bottom: 6rem;
 }
 
+.h1-title {
+  width: 100%;
+  background-image: url("../images/gray-shapes-bg.jfif");
+  padding-top: 5rem;
+  height: 77.5vh;
+}
+
+.h1-title .main-title {
+  font-size: 4rem;
+}
+
 .topics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
 }
 
@@ -156,8 +159,8 @@ main {
 .wrap {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .speakers-item {
@@ -166,8 +169,8 @@ main {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .pricing-access-box {
@@ -196,41 +199,43 @@ main {
 @media screen and (min-width: 992px) {
   .h1-title {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 20rem;
+    height: 90vh;
+    padding-left: 6rem;
+    padding-bottom: 10rem;
   }
-
+  .h1-title .main-title {
+    font-size: 6rem;
+  }
   .program-container .far,
   .program-container .fas {
     margin-top: 1rem;
   }
-
   .program-container .program-heading {
     margin-top: 1rem;
   }
-
   .program-container .display-4 {
     width: 210px;
   }
-
   .local-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-
   .column {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */

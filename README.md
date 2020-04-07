@@ -45,3 +45,11 @@ Thanks to [Microverse](https://www.microverse.org/)
 
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
+
+The .h1-title div for the index page has a very different height and vertical spacing than that same area in the original design. Remember to add some padding or setting a minimum height. 
+- There is no side margins for the body of the page in the original design, but yours have extra margins/passings in the mobile version. 
+- Check the original design here again (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
+- In the mobile version the navbar should collapse to an hamburger menu. Your nav bar remains on small screens. 
+- Work more on the responsiveness of the site while still following the original design. 
+- The tickets page is not responsive for mobile screens, at least on Firefox. - The tickets page design is not close enough to the original one, try to add similar borders to the ticket table.
+
