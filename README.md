@@ -51,11 +51,3 @@ Thanks to [Microverse](https://www.microverse.org/)
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 
-- fix .h1-title spacing 
-- fixed side margins
-- added hamburguer menu for header
-- made responsive table for pricing.html
-    - The tickets page is not responsive for mobile screens
-    - The tickets page design is not close enough to the original one
-    - Add similar borders to the ticket table.
-
