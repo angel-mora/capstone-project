@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url("Cocogoose.woff2") format("woff2"), url("Cocogoose.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a::before,
+a::after {
+  color: #272a31;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.coco {
+  font-family: "Cocogoose", Arial, sans-serif;
+}
+
+.prom {
+  font-family: "Prompt", sans-serif;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.white {
+  color: white;
+}
+
+.dark {
+  color: #272a31;
+}
+
+.bg-gray {
+  background-color: #d3d3d3;
+}
+
+.bg-dark {
+  background-color: #272a31;
+}
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.top-navbar,
+.top-navbar a {
+  color: white;
+}
+
+.top-navbar,
+.bottom-navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.bottom-navbar {
+  width: 100%;
+}
+
+.bottom-navbar .logo {
+  font-size: 2rem;
+}
+
+.bottom-navbar .tickets-btn {
+  border: 2px solid #ec5242;
+  color: #ec5242;
+}
+
+.media-img {
+  width: 10rem;
+  height: 10rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.program-container .program-heading {
+  font-size: 1rem;
+}
+
+#cc-logo {
+  width: 10rem;
+  height: auto;
+}
+
+.partners {
+  margin-bottom: 6rem;
+}
+
+.h1-title {
+  width: 100%;
+  background-image: url("../images/gray-shapes-bg.jfif");
+  padding-top: 5rem;
+  height: 77.5vh;
+}
+
+.h1-title .main-title {
+  font-size: 4rem;
+}
+
+.topics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.topics li {
+  padding: 0.3rem 0.5rem;
+  margin: 0.3rem 0.5rem;
+  background-color: #ec5242;
+  border-radius: 0.2em;
+}
+
+.topics a:hover {
+  color: white;
+}
+
+.about-memberships-p {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.2;
+}
+
+.table {
+  max-width: 1300px;
+  margin-bottom: 6rem;
+}
+
+.solarpunk {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.wrap {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.speakers-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.pricing-access-box {
+  margin: 3rem auto !important;
+}
+
+.pricing-table {
+  width: auto;
+  font-size: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0.5rem solid #272a31;
+  margin-bottom: 6rem;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1rem 1rem;
+}
+
+.pricing-table .thead-dark {
+  background-color: #eee;
+}
+
+.footer-copy {
+  font-size: 1.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .h1-title {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 20rem;
+    height: 90vh;
+    padding-left: 6rem;
+    padding-bottom: 10rem;
+  }
+
+  .h1-title .main-title {
+    font-size: 6rem;
+  }
+
+  .program-container .far,
+  .program-container .fas {
+    margin-top: 1rem;
+  }
+
+  .program-container .program-heading {
+    margin-top: 1rem;
+  }
+
+  .program-container .display-4 {
+    width: 210px;
+  }
+
+  .local-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .pricing-table {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

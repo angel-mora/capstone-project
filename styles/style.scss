@@ -1,0 +1,249 @@
+// variables
+$dark:#272a31;
+$orange: #ec5242;
+$gray: #d3d3d3;
+$white: white;
+$coco: "Cocogoose",
+  Arial,
+  sans-serif;
+$lato: "Lato",
+  sans-serif;
+$prom: "Prompt",
+  sans-serif;
+//extra fonts
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('Cocogoose.woff2') format('woff2'), url('Cocogoose.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// basic setup
+body {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: $lato;
+  overflow-x: hidden;
+}
+
+a,
+a::before,
+a::after {
+  color: $dark;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $orange;
+  text-decoration: none;
+}
+
+// font classes
+.coco {
+  font-family: $coco;
+}
+
+.prom {
+  font-family: $prom;
+}
+
+// color classes
+.orange {
+  color: $orange;
+}
+
+.white {
+  color: $white;
+}
+
+.dark {
+  color: $dark;
+}
+
+// bg color classes
+.bg-gray {
+  background-color: $gray;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+// header
+.top-navbar,
+.top-navbar a {
+  color: $white;
+}
+
+.top-navbar,
+.bottom-navbar {
+  position: sticky;
+  top: 0;
+}
+
+.bottom-navbar {
+  width: 100%;
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .tickets-btn {
+    border: 2px solid $orange;
+    color: $orange;
+  }
+}
+
+// main
+.media-img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.program-container {
+  .program-heading {
+    font-size: 1rem;
+  }
+}
+
+#cc-logo {
+  width: 10rem;
+  height: auto;
+}
+
+.partners {
+  margin-bottom: 6rem;
+}
+
+.h1-title {
+  width: 100%;
+  background-image: url("../images/gray-shapes-bg.jfif");
+  padding-top: 5rem;
+  height: 77.5vh;
+
+  .main-title {
+    font-size: 4rem;
+  }
+}
+
+.topics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+
+  li {
+    padding: 0.3rem 0.5rem;
+    margin: 0.3rem 0.5rem;
+    background-color: $orange;
+    border-radius: 0.2em;
+  }
+
+  a:hover {
+    color: $white;
+  }
+}
+
+.about-memberships-p {
+  font-size: 1.5rem;
+  display: flex;
+  line-height: 1.2;
+}
+
+.table {
+  max-width: 1300px;
+  margin-bottom: 6rem;
+}
+
+.solarpunk {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.wrap {
+  flex-flow: row wrap;
+}
+
+.speakers-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.pricing-access-box {
+  margin: 3rem auto !important;
+}
+
+.pricing-table {
+  width: auto;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  border: 0.5rem solid $dark;
+  margin-bottom: 6rem;
+
+  th,
+  td {
+    padding: 1rem 1rem;
+  }
+
+  .thead-dark {
+    background-color: #eee;
+  }
+}
+
+// footer
+.footer-copy {
+  font-size: 1.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .h1-title {
+    justify-content: center;
+    padding-top: 20rem;
+    height: 90vh;
+    padding-left: 6rem;
+    padding-bottom: 10rem;
+
+    .main-title {
+      font-size: 6rem;
+    }
+  }
+
+  .program-container {
+    .far,
+    .fas {
+      margin-top: 1rem;
+    }
+
+    .program-heading {
+      margin-top: 1rem;
+    }
+
+    .display-4 {
+      width: 210px;
+    }
+  }
+
+  .local-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-table {
+    font-size: 2rem;
+  }
+}
