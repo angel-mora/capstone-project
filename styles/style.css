@@ -174,19 +174,29 @@ a:hover {
 }
 
 .pricing-access-box {
-  width: 700px;
   margin: 3rem auto !important;
 }
 
 .pricing-table {
-  font-size: 2rem;
-  margin-top: 4rem;
+  width: auto;
+  font-size: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0.5rem solid #272a31;
   margin-bottom: 6rem;
 }
 
 .pricing-table th,
 .pricing-table td {
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
+}
+
+.pricing-table .thead-dark {
+  background-color: #eee;
 }
 
 .footer-copy {

@@ -171,17 +171,22 @@ a:hover {
 }
 
 .pricing-access-box {
-    width: 700px;
     margin: 3rem auto !important;
 }
 
 .pricing-table {
-    font-size: 2rem;
-    margin-top: 4rem;
+    width: auto;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    border: 0.5rem solid $dark;
     margin-bottom: 6rem;
     th,
     td {
-        padding: 4rem 2rem;
+        padding: 1rem 1rem;
+    }
+    .thead-dark {
+        background-color: #eee;
     }
 }
 
