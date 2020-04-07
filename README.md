@@ -1,9 +1,14 @@
-# capstone-project
+# Capstone Project - Global Summit
 Microverse front-end capstone project to show mastery skills using front-end tools.
 
 A conference registration website for a think tank focused on Low-Tech development.
 
 > HTML & CSS project made of 3 webpages using Bootstrap and SASS.
+![layouts](images/screenshots/landing-page.png)
+![layouts](images/screenshots/landing-xs-page.png)
+![layouts](images/screenshots/landing-menu.png)
+![layouts](images/screenshots/landing-xs-menu.png)
+![layouts](images/screenshots/about-page.png)
 
 You can find the inspiration for this website from [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
@@ -46,10 +51,11 @@ Thanks to [Microverse](https://www.microverse.org/)
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 
-The .h1-title div for the index page has a very different height and vertical spacing than that same area in the original design. Remember to add some padding or setting a minimum height. 
-- There is no side margins for the body of the page in the original design, but yours have extra margins/passings in the mobile version. 
-- Check the original design here again (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
-- In the mobile version the navbar should collapse to an hamburger menu. Your nav bar remains on small screens. 
-- Work more on the responsiveness of the site while still following the original design. 
-- The tickets page is not responsive for mobile screens, at least on Firefox. - The tickets page design is not close enough to the original one, try to add similar borders to the ticket table.
+- fix .h1-title spacing 
+- fixed side margins
+- added hamburguer menu for header
+- made responsive table for pricing.html
+    - The tickets page is not responsive for mobile screens
+    - The tickets page design is not close enough to the original one
+    - Add similar borders to the ticket table.
 
