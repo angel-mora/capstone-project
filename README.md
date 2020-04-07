@@ -20,7 +20,7 @@ You can find the inspiration for this website from [here](https://www.behance.ne
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/angel-mora/capstone-project/3382a3b4b7359b8afd6becd78aad7730d98f9a1f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/angel-mora/capstone-project/5d0aab8a6848f64c84eab66d28186f0c57f31b0c/index.html)
 
 [Watch the video presentation here](https://www.loom.com/share/fdb674f84f60479e9939909c5cc4d19b)
 
@@ -49,5 +49,6 @@ Thanks to [Microverse](https://www.microverse.org/)
 ### Creative Commons
 
 Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
 
 
